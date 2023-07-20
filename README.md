@@ -2,20 +2,6 @@
 
 This repository contains code for a deep learning model that detects glaucoma in fundus images. The model is built using TensorFlow and Keras and utilizes transfer learning with the MobileNetV2 architecture. The model is trained on a curated dataset of healthy and glaucoma fundus images and can classify fundus images as either healthy or showing signs of glaucoma.
 
-# Installation
-To run the code in this repository, you need to have the following libraries and dependencies installed:
-
-TensorFlow
-Keras
-NumPy
-pandas
-matplotlib
-scikit-learn
-You can install the required libraries using pip:
-
-Copy code
-pip install tensorflow keras numpy pandas matplotlib scikit-learn
-
 # Dataset
 The fundus image dataset used for training and testing the model can be found in the Multichannel Glaucoma Benchmark Dataset on Kaggle. The dataset includes fundus images for both healthy and glaucoma cases.
 
